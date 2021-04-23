@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FM CRS 90.8 Mhz</title>
+        <link rel="stylesheet" href="css/styles.css">
+         <link href="https://  fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        
+    
+    </head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">CORE TEAMS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" ></i>
+
+        </nav>
+        
+    <div class="text-box">
+        <h1>FM CRS 90.8Mhz</h1>
+        <p>It's hot</p>
+        <a href="" class="hero-btn">Learn More</a>
+    </div>
+    </section>
+    
+<!-- JavaScript for toggle Menu ------>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+</script>
+</body>
+</html>
