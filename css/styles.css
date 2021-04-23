@@ -6,7 +6,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: url("C:/Users/FLASH/Desktop/Audacity Workshop/FM site/images/image-asset.gif");
+    background-image: url("./images/image-asset.gif");
     background-position: center;
     background-size:  cover;
     position: relative;
